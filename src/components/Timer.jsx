@@ -46,7 +46,6 @@ function Timer() {
   return (
     <div className={styles.container}>
       <span className={styles.timer}>
-        {' '}
         {new Date(seconds).toISOString().slice(11, 19)}
       </span>
       <div className={styles.btn_container}>

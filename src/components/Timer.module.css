@@ -1,0 +1,76 @@
+.container {
+  width: 280px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.btn_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.timer {
+  font-size: 50px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+.start_button,
+.stop_button,
+.reset_button,
+.wait_button {
+  width: 60px;
+  border: none;
+  outline: none;
+  background-color: whitesmoke;
+  font-size: large;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.start_button {
+  border: 2px solid seagreen;
+}
+
+.start_button:hover {
+  transform: scale(1.2);
+  background-color: seagreen;
+  color: seashell;
+  cursor: pointer;
+}
+
+.stop_button {
+  border: 2px solid red;
+}
+
+.stop_button:hover {
+  transform: scale(1.2);
+  background-color: red;
+  color: seashell;
+  cursor: pointer;
+}
+
+.reset_button {
+  border: 2px solid teal;
+}
+
+.reset_button:hover {
+  transform: scale(1.2);
+  background-color: teal;
+  color: seashell;
+  cursor: pointer;
+}
+
+.wait_button {
+  border: 2px solid yellowgreen;
+}
+
+.wait_button:hover {
+  transform: scale(1.2);
+  background-color: yellowgreen;
+  color: seashell;
+  cursor: pointer;
+}
